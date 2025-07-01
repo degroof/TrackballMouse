@@ -24,5 +24,9 @@ Some guidelines on this:
  2. For a mouse configuration, the PMW3610 breakout board should be oriented lens down, with the 6-pin J1 connector on the left
  3. In either case, the distance between the lens and the surface / ball is a bit sensitive; the diagrams on page 4 of [this document](https://trackballs.eu/media/Nakabayashi/Digio2/PMW3610DM-SUDU.pdf) should help
 
-One thing I ran into was that the BLE microcontrollers I had contained firmware that required updating; I recommend updating to at least version 0.8.1
+One thing I ran into was that the BLE microcontrollers I had contained firmware that required updating; I recommend updating to at least version 0.8.1 *before* programming the microcontroller
+
+I can't guarantee what I've got here is the most elegant code, but it does seem to work. I've used it to build a wired trackball, a wireless mouse, and a wireless scroll wheel.
+
+![image](https://github.com/user-attachments/assets/5490d0b3-3706-4cd9-af40-ee7ead688813)
 
