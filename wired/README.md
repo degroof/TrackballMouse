@@ -1,0 +1,1 @@
+This is the Arduino code for a wired device. I've tested this with the Adafruit RP2040 Feather in a trackball. Should work with othe microcontrollers, but may need some edits depending on pinouts and library support.
