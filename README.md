@@ -15,7 +15,7 @@ The hardware required for this consists of:
  - a tactile or micro switch for each button
  - a trackball ball and some ball bearings to support it (for trackball)
  - some mouse glides / skates (for mouse)
- - a battery or batery pack (for wireless)
+ - a battery or battery pack (for wireless)
  - a USB cable (for wired)
 
 In addition, you'll need some sort of enclosure. I designed and 3D printed mine.
@@ -23,6 +23,7 @@ Some guidelines on this:
  1. For a trackball configuration, the PMW3610 breakout board should be oriented lens up, with the 6-pin J1 connector on the right
  2. For a mouse configuration, the PMW3610 breakout board should be oriented lens down, with the 6-pin J1 connector on the left
  3. In either case, the distance between the lens and the surface / ball is a bit sensitive; the diagrams on page 4 of [this document](https://trackballs.eu/media/Nakabayashi/Digio2/PMW3610DM-SUDU.pdf) should help
+**NOTE**: WHen using glides/skates on a mouse, the thickness of those must be taken into account when positioning the PMW3610
 
 One thing I ran into was that the BLE microcontrollers I had contained firmware that required updating; I recommend updating to at least version 0.8.1 *before* programming the microcontroller
 
